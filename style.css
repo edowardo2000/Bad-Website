@@ -48,6 +48,10 @@ table {
 body{
 	font-family: 'Roboto', sans-serif;
 }
+
+.con{
+	background-image: url(img/2.png);
+}
 .container{
 	width: 992px;
 	height: auto;
@@ -57,7 +61,7 @@ body{
 }
 .search, .content{
 	text-align: center;
-	margin: 20;
+	padding: 20px;
 	/* border: 2px solid black; */
 }
 .header{
@@ -74,11 +78,13 @@ body{
 	font-size: 40px;
 	color: whitesmoke;
 	text-shadow: 2px 2px black;
+	font-weight: bold;
 }
 
 .header h3{
 	font-size: 30px;
-	color: yellow;
+	color: orange;
+	padding-top: 10px;
 	text-shadow: 2px 2px black;
 }
 
@@ -91,6 +97,7 @@ body{
 	border-radius: 25px;
 	padding: 15px;
 	background-color: mediumorchid;
+	font-weight: bold;
 
 }
 .crop {
@@ -106,6 +113,7 @@ body{
 .content table{
     margin-left:auto; 
 	margin-right:auto;
+	margin-bottom: 100px;
   }
 
 .content table tr td{
@@ -147,6 +155,10 @@ form{
 	text-decoration: underline;
 }
 
+.search{
+	padding-top: 50px;
+	margin-bottom: 20px;
+}
 .search input, button{
 	border-radius: 5px;
 	padding: 5px 7px 5px;
@@ -198,7 +210,9 @@ color: white;
 footer{
 	text-align: center;
 	margin: auto;
-	margin: 80px 80px;
+	background-color:darkorchid ;
+	padding: 20px;
+	border-top: 4px solid orange;
 }
 
 .tg  {
@@ -206,6 +220,11 @@ footer{
 	margin-left:auto;
 	margin-right:auto;
 	border-spacing: 15px 50px;
+	color: white;
+}
+
+.tg th{
+	text-align: center;
 }
 
 .tg td{
@@ -233,7 +252,9 @@ footer{
 	text-align: center;
 	vertical-align:top;
 	border:none;
-	padding: 5px;
+	padding: 20px;
+	color: orange;
+	text-shadow: 1px 1px white;
 }
 
 .tg .tg-4{
